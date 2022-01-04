@@ -1,0 +1,40 @@
+.App {
+    background-color: rgb(203, 200, 200);
+}
+
+
+
+
+.meImageContainer {
+    display: flex;
+    justify-content: center;
+}
+.meimage {
+    height: 13rem;
+    width: 10rem;
+    padding-bottom: 1%;
+}
+
+.carousel-inner {
+    width: 100%vw;
+    height: 40vw;
+    display: flex;
+}
+
+.aboutMeHeader {
+    text-align: center;
+}
+.aboutMeParagraph {
+    text-align: center;
+   padding: 2%
+}
+
+.aboutMeContainer {
+    background-color: rgb(203, 200, 200);
+}
+
+.allForms {
+
+  width: 50%;
+  padding: 4%;  
+}
