@@ -8,7 +8,7 @@ import Portfolio from './portfolio';
 import FooterPage from './footer';
 import '../styles/header.css';
 
-function Headerex() {
+function Primary() {
 
 
 const [changeBody, setChangeBody] = useState([<Aboutme/>])
@@ -58,4 +58,4 @@ const handlePortfolioClick = () => {
 
 }
 
-export default Headerex
+export default Primary

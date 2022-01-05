@@ -8,74 +8,80 @@ return (
     <Row xs={1} md={2} className="g-4">
   
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className="portfolio-card">
+        <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/fast-food.png")}/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>My Unhealthy Friend</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+          The best anti - my fitness pal app of all time. Get unfit! 
           </Card.Text>
+          <p><a href="https://murmuring-depths-69285.herokuapp.com/"> My Unhealthy Friend</a></p>
+          <p><a href="https://github.com/aliciachen10/my-unhealthy-friend">GitHub</a></p>
         </Card.Body>
       </Card>
     </Col>
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className="portfolio-card">
+      <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/weather.jpg")}/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Weather Dashboard</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+           An application to easily view today's weather and the next few days! 
           </Card.Text>
+          <p><a href="https://andrewbumnc.github.io/weather-dashboard/"> Weather Dashboard</a></p>
+          <p><a href="https://andrewbumnc.github.io/weather-dashboard/"> GitHub</a></p>
         </Card.Body>
       </Card>
     </Col>
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className="portfolio-card">
+      <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/scheduler.jpg")}/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Day Planner</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            An app to easily plan your day and take notes as you go about your business! 
           </Card.Text>
+          <p><a href="https://andrewbumnc.github.io/day-planner/"> Day Planner</a></p>
+          <p><a href="https://github.com/andrewbumNC/day-planner"> GitHub</a></p>
         </Card.Body>
       </Card>
     </Col>
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className="portfolio-card">
+      <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/to-do-list-template.jpg")}/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Express Note Taker!</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Easy way of taking notes or creating to do lists throughout the day! 
           </Card.Text>
+          <p><a href="https://dashboard.heroku.com/apps/andrewbumnc-express-note-taker">Express Note Taker </a></p>
+          <p><a href="https://github.com/andrewbumNC/express-note-taker"> GitHub</a></p>
         </Card.Body>
       </Card>
     </Col>
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className="portfolio-card">
+      <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/password.png")}/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Password Generator</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Easily generate strong passwords!
           </Card.Text>
+          <p><a href="https://andrewbumnc.github.io/password-generator/"> Password Generator</a></p>
+          <p><a href="hhttps://github.com/andrewbumNC/password-generator"> GitHub </a></p>
         </Card.Body>
       </Card>
     </Col>
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className="portfolio-card">
+      <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/wine-and-food.jpg")}/>
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Random Meal and Drink Generator</Card.Title>
           <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Find your next meal and drink easily and randomly! 
           </Card.Text>
+          <p><a href="https://terrence-me.github.io/project1/"> Randome Meal and Drink Generator</a></p>
+          <p><a href="https://github.com/Terrence-Me/project1"> GitHub </a></p>
         </Card.Body>
       </Card>
     </Col>
