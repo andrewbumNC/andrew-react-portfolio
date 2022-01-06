@@ -5,9 +5,9 @@ function Portfolio () {
 
 return (
     <div type="container"> 
-    <Row xs={1} md={2} className="g-4">
+    <Row xs={1} md={2} className="row">
   
-    <Col>
+    <Col className="col-md-6 card-container">
       <Card className="portfolio-card">
         <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/fast-food.png")}/>
         <Card.Body>
@@ -20,7 +20,7 @@ return (
         </Card.Body>
       </Card>
     </Col>
-    <Col>
+    <Col className="col-md-6 card-container">
       <Card className="portfolio-card">
       <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/weather.jpg")}/>
         <Card.Body>
@@ -33,7 +33,7 @@ return (
         </Card.Body>
       </Card>
     </Col>
-    <Col>
+    <Col className="col-md-6 card-container">
       <Card className="portfolio-card">
       <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/scheduler.jpg")}/>
         <Card.Body>
@@ -46,7 +46,7 @@ return (
         </Card.Body>
       </Card>
     </Col>
-    <Col>
+    <Col className="col-md-6 card-container">
       <Card className="portfolio-card">
       <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/to-do-list-template.jpg")}/>
         <Card.Body>
@@ -59,7 +59,7 @@ return (
         </Card.Body>
       </Card>
     </Col>
-    <Col>
+    <Col className="col-md-6 card-container">
       <Card className="portfolio-card">
       <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/password.png")}/>
         <Card.Body>
@@ -72,7 +72,7 @@ return (
         </Card.Body>
       </Card>
     </Col>
-    <Col>
+    <Col className="col-md-6 card-container">
       <Card className="portfolio-card">
       <Card.Img variant="top" class="portfolio-sample-picture" src={require("../styles/images/wine-and-food.jpg")}/>
         <Card.Body>

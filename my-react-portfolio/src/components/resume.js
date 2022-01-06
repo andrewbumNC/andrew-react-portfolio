@@ -1,30 +1,38 @@
 
 
-import { Container, Card, ListGroup } from "react-bootstrap"
+import { Container, Card, ListGroup, Row } from "react-bootstrap"
 
 function Resume () {
 
 return (
     <Container fluid>
   
-  <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Resume</Card.Title>
-    <Card.Text>
-      Click the links below to download a copy of my resume or visit my linkedIn page.
-    </Card.Text>
-    <Card.Link href="https://docs.google.com/document/d/0B9S8lMbbBhFPczByeWJVOW5aYWl0UllIVV9ZdmExVXBsR2pr/edit?usp=sharing&ouid=101143160745006770620&resourcekey=0-UYUeNybpvg1wKtuH4xmfWQ&rtpof=true&sd=true">Resume</Card.Link>
-    <Card.Link href="https://www.linkedin.com/in/andrew-bumgarner-6b204b90/">linkedIn</Card.Link>
-  </Card.Body>
-  <Card style={{ width: '18rem' }}>
-  <Card.Header>Proficiencies</Card.Header>
-  <ListGroup variant="flush">
-    <ListGroup.Item>React</ListGroup.Item>
-    <ListGroup.Item>Java Script</ListGroup.Item>
-    <ListGroup.Item>Node.js</ListGroup.Item>
-  </ListGroup>
-</Card>
-</Card>
+
+<Row>
+<h1 className="aboutMeHeader"> <a href="https://docs.google.com/document/d/0B9S8lMbbBhFPczByeWJVOW5aYWl0UllIVV9ZdmExVXBsR2pr/edit?usp=sharing&ouid=101143160745006770620&resourcekey=0-UYUeNybpvg1wKtuH4xmfWQ&rtpof=true&sd=true">Resume</a> </h1>  
+          
+<div className="proficency-container"> 
+
+<ListGroup className="proficencies">
+  <ListGroup.Item>Java Script</ListGroup.Item>
+  <ListGroup.Item>Node.js</ListGroup.Item>
+  <ListGroup.Item>Express.js</ListGroup.Item>
+  <ListGroup.Item>HTML</ListGroup.Item>
+
+</ListGroup>
+
+<ListGroup className="proficencies">
+  <ListGroup.Item>Jquery</ListGroup.Item>
+  <ListGroup.Item>NoSQL</ListGroup.Item>
+  <ListGroup.Item>MongoDB</ListGroup.Item>
+  <ListGroup.Item>CSS</ListGroup.Item>
+ 
+</ListGroup>
+
+ </div> 
+
+ 
+ </Row>
 
 </Container>
 

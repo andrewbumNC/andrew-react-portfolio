@@ -1,3 +1,9 @@
+body {
+    background-color:rgb(203, 200, 200);
+}
+
+
+
 .App {
     background-color: rgb(203, 200, 200);
 }
@@ -63,10 +69,27 @@
 .portfolio-card {
  width: 40rem;
  height: 31rem;
- margin-left: 5%;
 }
 
 .portfolio-sample-picture {
 width: 100%;
 height: 20rem;
+}
+
+.card-container {
+    padding-top: 2%;
+    padding-left: 2.2%;
+}
+
+.proficency-container {
+    display: flex;
+    justify-content: center;
+}
+
+.proficencies {
+    padding: 1%;
+}
+
+.footer-top-el {
+ 
 }
