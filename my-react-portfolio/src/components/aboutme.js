@@ -48,8 +48,7 @@ return (
       <img className="meimage" alt="picofme" src={require('../styles/images/me.jpg')} />
       
       </div>
-    <p className="aboutMeParagraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
- 
+    <p className="aboutMeParagraph"> Hi! My name is Andrew Bumgarner! I'm a ten year professional in the SaaS space and I have almost completed a six month full stack engineering bootcamp. It's my hope to apply this technical knowledge to my next position that sits somewhere in between the revenue and engineering teams, ideally in: customer success, product management, or solutions engineering. While you're here please take a minute to view some of my earlier applications. </p>
  
  </Row>
 </Container>
