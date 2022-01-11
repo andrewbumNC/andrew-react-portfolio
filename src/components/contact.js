@@ -12,26 +12,37 @@ const [lastName, setLastName] = useState("");
 const [email, setEmail] = useState("");
 const [message, setMessage] = useState("")
 const [errorMessage, setErrorMessage] = useState("");
-
+const [emailRequired, setEmailRequired] = useState("");
 
 const handleInputChange = (event) => {
 
 const { target } = event;
 
-const inputType = target.name;
+const inputName = target.name;
 const inputValue = target.value;
 
-if (inputType === 'email') {
+
+if (inputName === 'email') {
     setEmail(inputValue);
-} else if (inputType === "firstName"){
+} else if (inputName === "firstName"){
     setFirstName(inputValue); 
-} else if (inputType === "lastName"){
+} else if (inputName === "lastName"){
     setLastName(inputValue);
 } else {
     setMessage(inputValue);
 }
-
 };
+
+
+
+const handleClickOff = (event) => {
+
+  console.log(event.target.type)
+  if (event.target.type === 'text') {
+    setEmailRequired("A valid email is required!")
+  }
+
+}
 
 const handleFormSubmit = (event) => {
 event.preventDefault();
@@ -86,8 +97,9 @@ return (
     type="text" 
     value={email}
     name="email"
+    onBlur={handleClickOff}
     onChange={handleInputChange}
-    placeholder=""
+    placeholder={emailRequired}
     />
   </Form.Group>
 
@@ -98,7 +110,6 @@ return (
     value={message}
     name="message"
     onChange={handleInputChange}
-    placeholder=""
     as="textarea"
      rows={3} />
   </Form.Group>
